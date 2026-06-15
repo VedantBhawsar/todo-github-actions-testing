@@ -22,7 +22,7 @@ jobs:
 
       - run: npm ci
 
-      - run: turbo build
+      - run: npx turbo build
 
   test:
     name: Test
